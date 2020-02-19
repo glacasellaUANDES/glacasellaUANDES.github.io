@@ -769,3 +769,8 @@ main.scale-down {
     color: white;
     font-size: 4em;
 }
+
+.cd-nav li a em {
+    font-family: 'Tomorrow', sans-serif;
+    margin-top: 1em;
+}
