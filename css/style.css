@@ -756,3 +756,16 @@ main.scale-down {
         border-right-width: 1px solid #e0cf75;
     }
 }
+
+
+/* Estilos mios*/
+
+#homeIcon,
+#desktopandmobileicon,
+#iaicon,
+#webdevicon,
+#aboutmeicon,
+#contacticon {
+    color: white;
+    font-size: 4em;
+}
