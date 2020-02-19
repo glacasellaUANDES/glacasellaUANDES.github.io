@@ -328,7 +328,7 @@ xnavigation
     transition: background-color 0.2s;
 }
 
-.no-touch .cd-nav a:hover svg {
+.no-touch .cd-nav a:hover i {
     -webkit-animation: cd-shock 0.3s;
     -moz-animation: cd-shock 0.3s;
     animation: cd-shock 0.3s;
