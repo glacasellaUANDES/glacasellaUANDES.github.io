@@ -174,7 +174,7 @@ nav.menu-hover {
 nav h1 {
     z-index: 100;
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -65px;
     height: 60px;
@@ -208,7 +208,7 @@ nav li {
     color: #9dc6d1;
     line-height: 60px;
     background-color: #353441;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in-out;
 }
 
 nav li:nth-of-type(2n) {
@@ -216,9 +216,10 @@ nav li:nth-of-type(2n) {
 }
 
 nav li:hover {
-    background: ORANGERED;
-    color: white;
+    background: white;
+    color: black;
     cursor: pointer;
+    font-weight: bold;
 }
 
 main {
@@ -277,7 +278,7 @@ main section {
     padding: 1em 4em;
     max-width: 680px;
     overflow: auto;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .85);
 }
 
 section h1 {
@@ -289,6 +290,18 @@ section h1 {
 section p {
     display: inline-block;
     margin: 16px 0;
+}
+
+.menu-activea ul li:first-child {
+    margin-top: 30vh;
+}
+
+.footer {
+    color: white;
+}
+
+.recent-projects {
+    color: white;
 }
 
 
