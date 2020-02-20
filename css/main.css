@@ -238,6 +238,14 @@ a {
     float: left!important;
 }
 
+.button-transparent-to-red {
+    transition: all .3s ease-in-out!important;
+}
+
+.button-transparent-to-red:hover {
+    background-color: #F44336!important;
+}
+
 
 /* ==========================================================================
    Helper classes
