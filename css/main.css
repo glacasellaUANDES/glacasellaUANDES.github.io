@@ -204,6 +204,12 @@ html {
     font-size: 3em!important;
 }
 
+@media only screen and (max-device-width:1200px) {
+    .name {
+        font-size: 2em!important;
+    }
+}
+
 .info-panel {
     padding-top: 1.5em;
 }
