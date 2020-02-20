@@ -196,11 +196,24 @@ html {
 }
 
 .info-panel {
-    padding-top: 5em;
+    padding-top: 1.5em;
 }
 
 #swing {
     font-size: 1.5em;
+    color: #F44336;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blackhover:hover {
+    color: black;
 }
 
 
