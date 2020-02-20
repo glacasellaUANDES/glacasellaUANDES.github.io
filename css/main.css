@@ -281,6 +281,11 @@ div.w3-top a {
     font-size: 1em!important;
 }
 
+span.numero {
+    color: #F44336!important;
+    font-size: 6.5em!important;
+}
+
 
 /* ==========================================================================
    Helper classes
