@@ -245,7 +245,7 @@ a {
 }
 
 .red-button:hover {
-    background-color: rgb(197, 40, 29)!important;
+    background-color: rgb(231, 47, 34)!important;
     color: white!important;
 }
 
@@ -275,6 +275,10 @@ a {
 .portfolioheader {
     background-image: url('../img/portfolio.png');
     min-height: 100%;
+}
+
+div.w3-top a {
+    font-size: 1em!important;
 }
 
 
