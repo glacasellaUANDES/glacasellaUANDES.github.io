@@ -135,7 +135,10 @@ html {
 
 .bgimg-1,
 .bgimg-2,
-.bgimg-3 {
+.bgimg-3,
+.aboutheader,
+.contactheader,
+.portfolioheader {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -177,14 +180,20 @@ html {
 
 /* Turn off parallax scrolling for tablets and phones */
 
+
+/*
 @media only screen and (max-device-width: 1600px) {
     .bgimg-1,
     .bgimg-2,
-    .bgimg-3 {
+    .bgimg-3,
+    .aboutheader,
+    .contactheader,
+    .portfolioheader {
         background-attachment: scroll;
         min-height: 400px;
     }
 }
+*/
 
 
 /* Mis estilos*/
@@ -245,6 +254,21 @@ a {
 
 .button-transparent-to-red:hover {
     background-color: #F44336!important;
+}
+
+.aboutheader {
+    background-image: url("../img/header_aboutme.jpg");
+    min-height: 100%;
+}
+
+.contactheader {
+    background-image: url("../img/contacto.jpeg");
+    min-height: 100%;
+}
+
+.portfolioheader {
+    background-image: url('../img/portfolio.png');
+    min-height: 100%;
 }
 
 
