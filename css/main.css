@@ -239,6 +239,7 @@ a {
 }
 
 .button-transparent-to-red {
+    background-color: transparent!important;
     transition: all .3s ease-in-out!important;
 }
 
