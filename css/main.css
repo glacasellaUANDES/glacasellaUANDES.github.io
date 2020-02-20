@@ -234,6 +234,10 @@ a {
     color: white!important;
 }
 
+.left {
+    float: left!important;
+}
+
 
 /* ==========================================================================
    Helper classes
