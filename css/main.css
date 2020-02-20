@@ -220,6 +220,20 @@ a {
     float: right;
 }
 
+.red-button {
+    background-color: #F44336!important;
+    transition: all .3s ease-in-out!important;
+}
+
+.white-text {
+    color: white!important;
+}
+
+.red-button:hover {
+    background-color: rgb(197, 40, 29)!important;
+    color: white!important;
+}
+
 
 /* ==========================================================================
    Helper classes
