@@ -31,7 +31,7 @@
             <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="#home" class="w3-bar-item w3-button w3-hover-red button-transparent-to-red">HOME</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-red button-transparent-to-red red">HOME</a>
             <a href="aboutme.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red button-transparent-to-red"><i class="fa fa-user"></i> ABOUT ME</a>
             <a href="portfolio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red button-transparent-to-red"><i class="fa fa-th"></i> PORTFOLIO</a>
             <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red button-transparent-to-red"><i class="fa fa-envelope"></i> CONTACT</a>
@@ -49,28 +49,27 @@
         </div>
     </div>
 
-    <!-- First Parallax Image with Logo Text -->
+    <!--Name parallax-->
     <div class="bgimg-1 w3-display-container" id="home">
         <div class="w3-display-middle" style="white-space:nowrap;">
             <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity name">GIANFRANCO<span class="w3-hide-small"> LACASELLA</span></span>
         </div>
     </div>
 
-    <!-- Second Parallax Image with Portfolio Text -->
-    <div class="bgimg-4 w3-display-container w3-opacity-min">
+    <!-- About me parallax -->
+    <div class="bgimg-4 w3-display-container">
         <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">ABOUT ME</span>
+            <span class="w3-xxlarge w3-text-white w3-wide parallax-title w3-black">ABOUT <span class="w3-hide-small">ME</span></span>
         </div>
     </div>
 
     <!-- Container (About Section) -->
     <div class="w3-content w3-container w3-padding-64" id="about">
-        <!--<h3 class="w3-center">ABOUT ME</h3>-->
-        <p class="w3-center"><em>I love coding</em></p>
+        <p class="w3-center" id="lovecoding"><em>I love coding</em></p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laborum nam molestiae repellendus quod? Delectus qui ipsa fuga voluptates nesciunt pariatur, hic omnis eos sint aperiam incidunt, dicta, sapiente voluptatum?</p>
         <div class="w3-row">
             <div class="w3-col m6 w3-center w3-padding-large">
-                <p><b><i class="fa fa-user w3-margin-right"></i>Gianfranco Lacasella Cusati</b></p><br>
+                <p><b><i class="fa fa-user w3-margin-right" id="myname"></i>Gianfranco Lacasella Cusati</b></p><br>
                 <img src="img/yo.jpeg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
             </div>
 
@@ -114,10 +113,10 @@
         </div>
     </div>
 
-    <!-- Second Parallax Image with Portfolio Text -->
-    <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <!-- PORTFOLIO PARALLAX -->
+    <div class="bgimg-2 w3-display-container">
         <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+            <span class="w3-xxlarge w3-text-white w3-wide parallax-title w3-black">PORTFOLIO</span>
         </div>
     </div>
 
@@ -159,10 +158,10 @@
         </div>
     </div>
 
-    <!--THIRD PARALLAX-->
-    <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <!--CONTACT PARALLAX-->
+    <div class="bgimg-3 w3-display-container">
         <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+            <span class="w3-xxlarge w3-text-white w3-wide parallax-title w3-black">CONTACT</span>
         </div>
     </div>
 
@@ -194,7 +193,6 @@
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-32 w3-opacity w3-hover-opacity-off">
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
     </footer>
 
 
