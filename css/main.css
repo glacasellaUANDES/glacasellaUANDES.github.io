@@ -240,6 +240,10 @@ a {
     text-decoration: none!important;
 }
 
+.blackhover {
+    transition: all .3s ease-in-out;
+}
+
 .blackhover:hover {
     color: black;
 }
@@ -365,6 +369,7 @@ p {
     background-color: #F44336;
     border: none;
     transition: all .3s ease-in-out;
+    margin-right: 10px;
 }
 
 .card-btn:hover {
@@ -383,6 +388,10 @@ p {
 
 .show {
     display: block!important;
+}
+
+.gitcard {
+    font-size: 2em!important;
 }
 
 
