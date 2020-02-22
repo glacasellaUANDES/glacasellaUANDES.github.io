@@ -13,8 +13,11 @@ window.onscroll = function() {
 
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
+    document.getElementById('hamburguesa').className.replace(' black', '');
+    document.getElementById('hamburguesa').className += 'white';
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        document.getElementById('hamburguesa').className += ' black';
     } else {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
     }
