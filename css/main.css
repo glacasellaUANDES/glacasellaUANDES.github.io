@@ -251,6 +251,9 @@ a {
 .red-button {
     background-color: #F44336!important;
     transition: all .3s ease-in-out!important;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
 }
 
 .white-text {
@@ -336,7 +339,7 @@ p {
 }
 
 .card {
-    margin: 0 0 4em 3em!important;
+    margin: 0 0 5em 3em!important;
     padding: 0!important;
     transition: all .3s ease-in-out;
     width: 100%!important;
@@ -362,7 +365,7 @@ p {
 
 @media only screen and (max-width:992px) {
     .card {
-        margin: 0 0 4em 0!important;
+        margin: 0 0 5em 0!important;
     }
 }
 
