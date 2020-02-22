@@ -327,8 +327,8 @@ p {
     background-color: #F44336!important;
 }
 
-#aboutmemore {
-    float: right;
+.right {
+    float: right!important;
 }
 
 .card-img {
@@ -336,9 +336,10 @@ p {
 }
 
 .card {
-    margin-bottom: 4em!important;
+    margin: 0 0 4em 1em!important;
     padding: 1.5em!important;
     transition: all .3s ease-in-out;
+    width: 100%!important;
 }
 
 .card:hover {
@@ -347,8 +348,8 @@ p {
     box-shadow: 0px 0px 50px #666;
 }
 
-.center {
-    padding: 0!important;
+.cardizquierda {
+    margin-left: 0!important;
 }
 
 
