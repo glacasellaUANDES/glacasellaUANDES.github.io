@@ -494,6 +494,13 @@ button:hover .button-text {
 
 /*fin de estilos de botones*/
 
+#introduccion {
+    border: solid .1px rgb(200, 198, 198);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0px 0px 5px #666;
+}
+
 
 /* ==========================================================================
    Helper classes
