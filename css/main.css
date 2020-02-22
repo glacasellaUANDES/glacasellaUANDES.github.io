@@ -323,6 +323,10 @@ p {
     color: white;
 }
 
+#progressBar {
+    background-color: #F44336!important;
+}
+
 
 /* ==========================================================================
    Helper classes
