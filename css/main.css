@@ -327,6 +327,24 @@ p {
     background-color: #F44336!important;
 }
 
+#aboutmemore {
+    float: right;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 4em!important;
+    padding: 6px;
+}
+
+.card:hover {
+    background-color: rgb(209, 209, 209);
+    border: solid 2px red;
+}
+
 
 /* ==========================================================================
    Helper classes
