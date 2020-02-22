@@ -60,13 +60,3 @@ $(function() {
         }
     });
 });
-
-
-$(function() {
-    var check = $("#checked");
-    check.mousedown(function() {
-        if (!$(this).is(':checked')) {
-            console.log('check');
-        }
-    });
-});
