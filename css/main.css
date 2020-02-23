@@ -502,12 +502,19 @@ button:hover .button-text {
     height: 70%;
     width: 90%;
     overflow: hidden;
+    color: white;
+    background-color: black;
 }
 
 @media only screen and (max-width:769px) {
     #introduccion {
         overflow: scroll;
     }
+}
+
+#introduccion h3 {
+    color: #F44336;
+    font-weight: bold;
 }
 
 .content {
