@@ -347,7 +347,7 @@ p {
     padding: 0!important;
     transition: all .3s ease-in-out;
     width: 100%!important;
-    border: solid .1px rgb(233, 229, 229);
+    border: solid .1px rgb(202, 200, 200);
 }
 
 .card:hover {
@@ -540,13 +540,16 @@ button:hover .button-text {
 }
 
 
-/* Codigo nuevo*/
+/* nokey code */
 
 #nokey {
     position: absolute;
     display: inline;
     overflow: hidden;
 }
+
+
+/* end of nokey code*/
 
 
 /* ==========================================================================

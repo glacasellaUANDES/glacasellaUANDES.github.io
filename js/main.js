@@ -65,7 +65,7 @@ $(function() {
 });
 
 
-// Codigo nuevo
+// nokey code
 var element = document.getElementById('introduccion');
 var positionInfo = element.getBoundingClientRect();
 var height = positionInfo.height;
@@ -346,3 +346,5 @@ canvas.addEventListener('mousemove', function(e) {
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 });
+
+// end of nokey code
