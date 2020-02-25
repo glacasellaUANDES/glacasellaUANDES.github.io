@@ -505,7 +505,7 @@ button:hover .button-text {
 
 @media only screen and (max-width:769px) {
     #introduccion {
-        overflow: scroll;
+        overflow: hidden;
     }
 }
 
@@ -552,6 +552,12 @@ button:hover .button-text {
 
 h3 {
     font-size: 2em!important;
+}
+
+@media only screen and (max-width:769px) {
+    #firma {
+        margin-top: 0;
+    }
 }
 
 
