@@ -311,11 +311,6 @@ span.numero {
     padding: 5px!important;
 }
 
-#lovecoding {
-    font-size: 2em!important;
-    font-family: 'Consolas', sans-serif;
-}
-
 #myname {
     font-size: 2em;
     padding: 0;
@@ -550,6 +545,14 @@ button:hover .button-text {
 
 
 /* end of nokey code*/
+
+.subtitulo {
+    font-size: 1.3em!important;
+}
+
+h3 {
+    font-size: 2em!important;
+}
 
 
 /* ==========================================================================
