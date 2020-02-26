@@ -570,6 +570,13 @@ h3 {
 .panelHeading {
     text-align: center;
     font-family: 'Tomorrow', ;
+    margin-bottom: 10px!important;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.panelHeading:hover {
+    background-color: rgb(224, 221, 221);
 }
 
 

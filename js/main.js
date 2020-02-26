@@ -1,3 +1,5 @@
+prepareDOM();
+
 // Modal Image Gallery
 function onClick(element) {
     document.getElementById("img01").src = element.src;
@@ -34,6 +36,22 @@ function toggleFunction() {
     }
 }
 
+function prepareDOM() {
+    $('#high-level-hidden').hide();
+    $('#low-level-hidden').hide();
+    $('#web-dev-hidden').hide();
+    $('#databases-hidden').hide();
+    $('#robot-hidden').hide();
+    $('#AI-hidden').hide();
+}
+
+
+/*Control de paneles en aboutme.html*/
+$(function() {
+    $('.panelHeading').on('click', function() {
+        $('#' + $(this).attr('id') + '-hidden').slideToggle();
+    });
+});
 
 /* Animacion de los numeros*/
 $(function() {
