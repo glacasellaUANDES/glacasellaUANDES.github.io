@@ -320,11 +320,6 @@ p {
     font-size: 1em!important;
 }
 
-.red {
-    background-color: #F44336!important;
-    color: white;
-}
-
 .progressBar {
     background-color: #F44336!important;
 }
@@ -568,19 +563,35 @@ h3 {
 /* About me section*/
 
 .panelHeading {
-    text-align: center;
+    text-align: left;
     font-family: 'Tomorrow', ;
     margin-bottom: 10px!important;
     cursor: pointer;
     transition: all .3s ease-in-out;
+    background-color: white!important;
+    border: 2px solid rgb(117, 117, 117);
+    padding-left: 5em!important;
+    font-size: 17px!important;
+    border-radius: 2em/6em;
 }
 
 .panelHeading:hover {
-    background-color: rgb(224, 221, 221);
+    background-color: #2a2a2a!important;
+    color: white!important;
 }
 
 .panel {
-    border: none!important;
+    border: none;
+}
+
+.gray {
+    background-color: #2a2a2a!important;
+    color: white!important;
+}
+
+.red {
+    background-color: #F44336!important;
+    color: white!important;
 }
 
 

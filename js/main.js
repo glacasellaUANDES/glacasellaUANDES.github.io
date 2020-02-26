@@ -1,4 +1,4 @@
-prepareDOM();
+closePanels();
 
 // Modal Image Gallery
 function onClick(element) {
@@ -36,15 +36,26 @@ function toggleFunction() {
     }
 }
 
-function prepareDOM() {
+
+// Function that closes all the panels on aboutme.html
+function closePanels() {
     $('#high-level-hidden').hide();
     $('#python-hidden').hide();
     $('#cs-hidden').hide();
     $('#low-level-hidden').hide();
+    $('#c-hidden').hide();
+    $('#cpp-hidden').hide();
     $('#web-dev-hidden').hide();
+    $('#html-hidden').hide();
+    $('#php-hidden').hide();
+    $('#bootstrap-hidden').hide();
     $('#databases-hidden').hide();
+    $('#mysql-hidden').hide();
+    $('#sqlite-hidden').hide();
     $('#robot-hidden').hide();
+    $('#arduino-hidden').hide();
     $('#AI-hidden').hide();
+    $('#linear-hidden').hide();
 }
 
 
@@ -52,6 +63,7 @@ function prepareDOM() {
 $(function() {
     $('.panelHeading').on('click', function() {
         $('#' + $(this).attr('id') + '-hidden').slideToggle();
+        $(this).toggleClass('gray');
     });
 });
 

@@ -82,7 +82,7 @@
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
-        <p class="w3-large w3-center w3-padding-16">My favorite areas</p>
+        <h3 class="w3-large w3-center w3-padding-16">My favorite areas</h3>
         <p class="w3-wide"><i class="fas fa-laptop-code"></i>Dekstop and Mobile Development</p>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active progressBar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
@@ -103,7 +103,7 @@
         </div>
 
 
-        <p class="w3-large w3-center w3-padding-16">Technologies and programming languages</p>
+        <h3 class="w3-large w3-center w3-padding-16">Technologies and programming languages</h3>
         <div class="panel-group">
             <div class="panel panel-default">
                 <div class="panel-heading panelHeading" id="high-level">High Level Languages</div>
@@ -125,19 +125,20 @@
                     </div>
                 </div>
 
-
-                <!--Falta esconder los menus secundarios desde low level hacia abajo-->
-
                 <div class="panel-heading panelHeading" id="low-level">Low Level Languages</div>
                 <div id="low-level-hidden">
                     <div class="panel-body">
                         <div class="panel panel-default">
-                            <div class="panel-heading">C</div>
-                            <div class="panel-body">Lo basico</div>
+                            <div class="panel-heading panelHeading" id="c">C</div>
+                            <div id="c-hidden">
+                                <div class="panel-body">Lo basico</div>
+                            </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading">C++</div>
-                            <div class="panel-body">Lo basico</div>
+                            <div class="panel-heading panelHeading" id="cpp">C++</div>
+                            <div id="cpp-hidden">
+                                <div class="panel-body">Lo basico</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,16 +148,22 @@
                 <div id="web-dev-hidden">
                     <div class="panel-body">
                         <div class="panel panel-default">
-                            <div class="panel-heading">HTML5, CSS3, JavaScript & jQuery</div>
-                            <div class="panel-body">Tusabe</div>
+                            <div class="panel-heading panelHeading" id="html">HTML5, CSS3, JavaScript & jQuery</div>
+                            <div id="html-hidden">
+                                <div class="panel-body">Tusabe</div>
+                            </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading">PHP</div>
-                            <div class="panel-body">Tusabe</div>
+                            <div class="panel-heading panelHeading" id="php">PHP</div>
+                            <div id="php-hidden">
+                                <div class="panel-body">Tusabe</div>
+                            </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading">Bootstrap & w3.css frameworks</div>
-                            <div class="panel-body">Tusabe</div>
+                            <div class="panel-heading panelHeading" id="bootstrap">Bootstrap & w3.css frameworks</div>
+                            <div id="bootstrap-hidden">
+                                <div class="panel-body">Tusabe</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,12 +173,16 @@
                 <div id="databases-hidden">
                     <div class="panel-body">
                         <div class="panel panel-default">
-                            <div class="panel-heading">MySQL</div>
-                            <div class="panel-body">Tusabe</div>
+                            <div class="panel-heading panelHeading" id="mysql">MySQL</div>
+                            <div id="mysql-hidden">
+                                <div class="panel-body">Tusabe</div>
+                            </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading">SQLite</div>
-                            <div class="panel-body">Tusabe</div>
+                            <div class="panel-heading panelHeading" id="sqlite">SQLite</div>
+                            <div id="sqlite-hidden">
+                                <div class="panel-body">Tusabe</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -181,8 +192,10 @@
                 <div id="robot-hidden">
                     <div class="panel-body">
                         <div class="panel panel-default">
-                            <div class="panel-heading">Arduino</div>
-                            <div class="panel-body">Manejo de modulos bluethoot, envio y recepcion de datos, etc</div>
+                            <div class="panel-heading panelHeading" id="arduino">Arduino</div>
+                            <div id="arduino-hidden">
+                                <div class="panel-body">Manejo de modulos bluethoot, envio y recepcion de datos, etc</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -192,17 +205,17 @@
                 <div id="AI-hidden">
                     <div class="panel-body">
                         <div class="panel panel-default">
-                            <div class="panel-heading">Deep Learning</div>
-                            <div class="panel-body">...</div>
-                            <div class="panel-heading">Neural Networks</div>
-                            <div class="panel-body">...</div>
+                            <div class="panel-heading panelHeading" id="linear">Linear Regression</div>
+                            <div id="linear-hidden">
+                                <div class="panel-body">...</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <p class="w3-large w3-center w3-padding-16">External courses</p>
+        <h3 class="w3-large w3-center w3-padding-16">External courses</h3>
         <div class="panel-group">
             <div class="panel panel-default">
                 <div class="panel-heading panelHeading">Udemy</div>
@@ -234,43 +247,31 @@
             </div>
         </div>
 
-        <p class="w3-large w3-center w3-padding-16">Academic awards and achievements</p>
+        <h3 class="w3-large w3-center w3-padding-16">Academic awards and achievements</h3>
 
 
 
 
-        <p class="w3-large w3-center w3-padding-16">Languages I know</p>
+        <h3 class="w3-large w3-center w3-padding-16">Languages I know</h3>
         <p class="w3-wide"><img src="img/italia.png"> Italian</p>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active languageProgressBar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                100%
+                Native
             </div>
         </div>
         <p class="w3-wide"><img src="img/espana.png"> Spanish</p>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active languageProgressBar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                100%
+                Native
             </div>
         </div>
         <p class="w3-wide"><img src="img/usa.png"> English</p>
         <div class="progress">
             <div class="progress-bar progress-bar-striped active languageProgressBar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                75%
+                Advanced
             </div>
         </div>
-
-
-
-
     </div>
-
-
-
-
-
-
-
-
 
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-32 w3-opacity w3-hover-opacity-off">
