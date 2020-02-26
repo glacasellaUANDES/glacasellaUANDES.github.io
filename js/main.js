@@ -56,6 +56,12 @@ function closePanels() {
     $('#arduino-hidden').hide();
     $('#AI-hidden').hide();
     $('#linear-hidden').hide();
+    $('#udemy-hidden').hide();
+    $('#course1-hidden').hide();
+    $('#course2-hidden').hide();
+    $('#course3-hidden').hide();
+    $('#course4-hidden').hide();
+    $('#course5-hidden').hide();
 }
 
 
