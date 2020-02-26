@@ -12,6 +12,7 @@ window.onscroll = function() {
 };
 
 function myFunction() {
+    console.log("scroll");
     var navbar = document.getElementById("myNavbar");
     document.getElementById('hamburguesa').className.replace(' black', '');
     document.getElementById('hamburguesa').className += 'white';
