@@ -38,6 +38,8 @@ function toggleFunction() {
 
 function prepareDOM() {
     $('#high-level-hidden').hide();
+    $('#python-hidden').hide();
+    $('#cs-hidden').hide();
     $('#low-level-hidden').hide();
     $('#web-dev-hidden').hide();
     $('#databases-hidden').hide();
