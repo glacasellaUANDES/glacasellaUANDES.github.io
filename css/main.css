@@ -329,6 +329,10 @@ p {
     background-color: #F44336!important;
 }
 
+.languageProgressBar {
+    background-color: rgb(51, 192, 211)!important;
+}
+
 .right {
     float: right!important;
 }
