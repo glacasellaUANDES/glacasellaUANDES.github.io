@@ -74,6 +74,8 @@ $(function() {
             $(this).text('');
         } else {
             switch ($(this).attr('id')) {
+
+                // High level 
                 case 'high-level':
                     $(this).text('High Level Languages');
                     break;
@@ -83,6 +85,8 @@ $(function() {
                 case 'cs':
                     $(this).text('C#');
                     break;
+
+                    // Low level
                 case 'low-level':
                     $(this).text('Low Level Languages');
                     break;
@@ -92,6 +96,8 @@ $(function() {
                 case 'cpp':
                     $(this).text('C++');
                     break;
+
+                    // Web dev
                 case 'web-dev':
                     $(this).text('Web Development');
                     break;
@@ -104,6 +110,8 @@ $(function() {
                 case 'bootstrap':
                     $(this).text('Bootstr4ap & w3.css frameworks');
                     break;
+
+                    // Databases
                 case 'databases':
                     $(this).text('Databases');
                     break;
@@ -113,17 +121,41 @@ $(function() {
                 case 'sqlite':
                     $(this).text('SQLite');
                     break;
+
+                    // Robotics and iot
                 case 'robot':
                     $(this).text('Robotics and IoT');
                     break;
                 case 'arduino':
                     $(this).text('Arduino');
                     break;
+
+                    // AI
                 case 'AI':
                     $(this).text('AI & Machine Learning');
                     break;
                 case 'linear':
                     $(this).text('Linear Regression');
+                    break;
+
+                    // Courses
+                case 'udemy':
+                    $(this).text('Udemy');
+                    break;
+                case 'course1':
+                    $(this).text('Complete Web Development with HTML5, CSS3, JS AJAX PHP and MySQL');
+                    break;
+                case 'course2':
+                    $(this).text('Machine Learning A-Z™: Hands-On Python & R In Data Science');
+                    break;
+                case 'course3':
+                    $(this).text('AI with Python complete course');
+                    break;
+                case 'course4':
+                    $(this).text('Javascript Master: learn JS, jQuery, Angular 9, NodeJS');
+                    break;
+                case 'course5':
+                    $(this).text('Android and Kotlin from zero to professional');
                     break;
                 default:
                     break;
@@ -137,6 +169,8 @@ $(function() {
     $('.panelHeading').on('mouseenter', function() {
         if ($(this).hasClass('gray')) {
             switch ($(this).attr('id')) {
+
+                // High level 
                 case 'high-level':
                     $(this).text('High Level Languages');
                     break;
@@ -146,6 +180,8 @@ $(function() {
                 case 'cs':
                     $(this).text('C#');
                     break;
+
+                    // Low level
                 case 'low-level':
                     $(this).text('Low Level Languages');
                     break;
@@ -155,6 +191,8 @@ $(function() {
                 case 'cpp':
                     $(this).text('C++');
                     break;
+
+                    // Web dev
                 case 'web-dev':
                     $(this).text('Web Development');
                     break;
@@ -167,6 +205,8 @@ $(function() {
                 case 'bootstrap':
                     $(this).text('Bootstr4ap & w3.css frameworks');
                     break;
+
+                    // Databases
                 case 'databases':
                     $(this).text('Databases');
                     break;
@@ -176,17 +216,41 @@ $(function() {
                 case 'sqlite':
                     $(this).text('SQLite');
                     break;
+
+                    // Robotics and iot
                 case 'robot':
                     $(this).text('Robotics and IoT');
                     break;
                 case 'arduino':
                     $(this).text('Arduino');
                     break;
+
+                    // AI
                 case 'AI':
                     $(this).text('AI & Machine Learning');
                     break;
                 case 'linear':
                     $(this).text('Linear Regression');
+                    break;
+
+                    // Courses
+                case 'udemy':
+                    $(this).text('Udemy');
+                    break;
+                case 'course1':
+                    $(this).text('Complete Web Development with HTML5, CSS3, JS AJAX PHP and MySQL');
+                    break;
+                case 'course2':
+                    $(this).text('Machine Learning A-Z™: Hands-On Python & R In Data Science');
+                    break;
+                case 'course3':
+                    $(this).text('AI with Python complete course');
+                    break;
+                case 'course4':
+                    $(this).text('Javascript Master: learn JS, jQuery, Angular 9, NodeJS');
+                    break;
+                case 'course5':
+                    $(this).text('Android and Kotlin from zero to professional');
                     break;
                 default:
                     break;
