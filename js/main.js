@@ -70,6 +70,134 @@ $(function() {
         $('#' + $(this).attr('id') + '-hidden').slideToggle();
         $(this).toggleClass('gray');
         $($(this).next()[0]).toggleClass('border');
+        if ($(this).hasClass('gray')) {
+            $(this).text('');
+        } else {
+            switch ($(this).attr('id')) {
+                case 'high-level':
+                    $(this).text('High Level Languages');
+                    break;
+                case 'python':
+                    $(this).text('Python');
+                    break;
+                case 'cs':
+                    $(this).text('C#');
+                    break;
+                case 'low-level':
+                    $(this).text('Low Level Languages');
+                    break;
+                case 'c':
+                    $(this).text('C');
+                    break;
+                case 'cpp':
+                    $(this).text('C++');
+                    break;
+                case 'web-dev':
+                    $(this).text('Web Development');
+                    break;
+                case 'html':
+                    $(this).text('HTML5, CSS3, JavaScript & jQuery');
+                    break;
+                case 'php':
+                    $(this).text('PHP');
+                    break;
+                case 'bootstrap':
+                    $(this).text('Bootstr4ap & w3.css frameworks');
+                    break;
+                case 'databases':
+                    $(this).text('Databases');
+                    break;
+                case 'mysql':
+                    $(this).text('MySQL');
+                    break;
+                case 'sqlite':
+                    $(this).text('SQLite');
+                    break;
+                case 'robot':
+                    $(this).text('Robotics and IoT');
+                    break;
+                case 'arduino':
+                    $(this).text('Arduino');
+                    break;
+                case 'AI':
+                    $(this).text('AI & Machine Learning');
+                    break;
+                case 'linear':
+                    $(this).text('Linear Regression');
+                    break;
+                default:
+                    break;
+            }
+        }
+    });
+});
+
+// Mouse enter y mouse leave de aboutme.html
+$(function() {
+    $('.panelHeading').on('mouseenter', function() {
+        if ($(this).hasClass('gray')) {
+            switch ($(this).attr('id')) {
+                case 'high-level':
+                    $(this).text('High Level Languages');
+                    break;
+                case 'python':
+                    $(this).text('Python');
+                    break;
+                case 'cs':
+                    $(this).text('C#');
+                    break;
+                case 'low-level':
+                    $(this).text('Low Level Languages');
+                    break;
+                case 'c':
+                    $(this).text('C');
+                    break;
+                case 'cpp':
+                    $(this).text('C++');
+                    break;
+                case 'web-dev':
+                    $(this).text('Web Development');
+                    break;
+                case 'html':
+                    $(this).text('HTML5, CSS3, JavaScript & jQuery');
+                    break;
+                case 'php':
+                    $(this).text('PHP');
+                    break;
+                case 'bootstrap':
+                    $(this).text('Bootstr4ap & w3.css frameworks');
+                    break;
+                case 'databases':
+                    $(this).text('Databases');
+                    break;
+                case 'mysql':
+                    $(this).text('MySQL');
+                    break;
+                case 'sqlite':
+                    $(this).text('SQLite');
+                    break;
+                case 'robot':
+                    $(this).text('Robotics and IoT');
+                    break;
+                case 'arduino':
+                    $(this).text('Arduino');
+                    break;
+                case 'AI':
+                    $(this).text('AI & Machine Learning');
+                    break;
+                case 'linear':
+                    $(this).text('Linear Regression');
+                    break;
+                default:
+                    break;
+            }
+        }
+    });
+
+    $('.panelHeading').on('mouseleave', function() {
+        if ($(this).hasClass('gray')) {
+            $(this).text('');
+        }
     });
 });
 
