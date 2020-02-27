@@ -47,7 +47,7 @@ function closePanels() {
     $('#web-dev-hidden').hide();
     $('#html-hidden').hide();
     $('#php-hidden').hide();
-    $('#bootstrap-hidden').hide();
+    $('#frameworks-hidden').hide();
     $('#databases-hidden').hide();
     $('#mysql-hidden').hide();
     $('#sqlite-hidden').hide();
@@ -107,8 +107,8 @@ $(function() {
                 case 'php':
                     $(this).text('PHP');
                     break;
-                case 'bootstrap':
-                    $(this).text('Bootstr4ap & w3.css frameworks');
+                case 'frameworks':
+                    $(this).text('Frameworks');
                     break;
 
                     // Databases
@@ -202,8 +202,8 @@ $(function() {
                 case 'php':
                     $(this).text('PHP');
                     break;
-                case 'bootstrap':
-                    $(this).text('Bootstr4ap & w3.css frameworks');
+                case 'frameworks':
+                    $(this).text('Frameworks');
                     break;
 
                     // Databases

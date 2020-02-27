@@ -629,6 +629,18 @@ p.blackhover {
     margin-right: 0!important;
 }
 
+.list-detail-language {
+    padding: 1em;
+}
+
+.list-detail-language li {
+    margin: 5px 0 5px 0;
+}
+
+.list-detail-language li span {
+    font-weight: bold;
+}
+
 
 /* ==========================================================================
    Helper classes
