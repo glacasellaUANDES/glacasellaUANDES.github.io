@@ -609,6 +609,17 @@ h3 {
     margin-left: 15%;
 }
 
+#githubActivity {
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width:800px) {
+    #githubActivity {
+        display: none;
+    }
+}
+
 
 /* ==========================================================================
    Helper classes
