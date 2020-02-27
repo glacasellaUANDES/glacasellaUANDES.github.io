@@ -578,6 +578,7 @@ h3 {
 .panelHeading:hover {
     background-color: #2a2a2a!important;
     color: white!important;
+    transform: scale(1.03);
 }
 
 .panel {
@@ -592,6 +593,10 @@ h3 {
 .red {
     background-color: #F44336!important;
     color: white!important;
+}
+
+.border {
+    border-left: solid 5px #2a2a2a;
 }
 
 

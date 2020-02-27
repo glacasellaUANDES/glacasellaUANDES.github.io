@@ -14,7 +14,6 @@ window.onscroll = function() {
 };
 
 function myFunction() {
-    console.log("scroll");
     var navbar = document.getElementById("myNavbar");
     document.getElementById('hamburguesa').className.replace(' black', '');
     document.getElementById('hamburguesa').className += 'white';
@@ -70,6 +69,7 @@ $(function() {
     $('.panelHeading').on('click', function() {
         $('#' + $(this).attr('id') + '-hidden').slideToggle();
         $(this).toggleClass('gray');
+        $($(this).next()[0]).toggleClass('border');
     });
 });
 
@@ -115,7 +115,7 @@ var canvas = document.getElementById('nokey'),
     can_h = height,
     ctx = canvas.getContext('2d');
 
-// console.log(typeof can_w);
+
 
 var ball = {
         x: 0,
