@@ -600,6 +600,15 @@ h3 {
     border-left: solid 5px #2a2a2a;
 }
 
+.panel-body ul {
+    margin-left: 15%;
+    margin-bottom: 2em;
+}
+
+.panel-body h5 {
+    margin-left: 15%;
+}
+
 
 /* ==========================================================================
    Helper classes
