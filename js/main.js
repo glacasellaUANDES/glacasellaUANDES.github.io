@@ -54,7 +54,8 @@ function closePanels() {
     $('#robot-hidden').hide();
     $('#arduino-hidden').hide();
     $('#AI-hidden').hide();
-    $('#linear-hidden').hide();
+    $('#ML-hidden').hide();
+    $('#pyml-hidden').hide();
     $('#udemy-hidden').hide();
     $('#course1-hidden').hide();
     $('#course2-hidden').hide();
@@ -134,8 +135,11 @@ $(function() {
                 case 'AI':
                     $(this).text('AI & Machine Learning');
                     break;
-                case 'linear':
-                    $(this).text('Linear Regression');
+                case 'ML':
+                    $(this).text('Machine Learning Algorithms');
+                    break;
+                case 'pyml':
+                    $(this).text('Python Machine Learning Modules');
                     break;
 
                     // Courses
@@ -229,8 +233,11 @@ $(function() {
                 case 'AI':
                     $(this).text('AI & Machine Learning');
                     break;
-                case 'linear':
-                    $(this).text('Linear Regression');
+                case 'ML':
+                    $(this).text('Machine Learning Algorithms');
+                    break;
+                case 'pyml':
+                    $(this).text('Python Machine Learning Modules');
                     break;
 
                     // Courses
