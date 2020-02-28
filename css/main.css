@@ -533,18 +533,6 @@ button:hover .button-text {
     color: white;
 }
 
-
-/* nokey code */
-
-#nokey {
-    position: absolute;
-    display: inline;
-    overflow: hidden;
-}
-
-
-/* end of nokey code*/
-
 .subtitulo {
     font-size: 1.3em!important;
 }
