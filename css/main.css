@@ -608,10 +608,6 @@ h3 {
     }
 }
 
-.fa-github {
-    font-size: 1em!important;
-}
-
 .list-detail-language {
     padding: 1em;
 }
@@ -622,6 +618,10 @@ h3 {
 
 .list-detail-language li span {
     font-weight: bold;
+}
+
+#githubLink {
+    font-size: 1.5em!important;
 }
 
 
