@@ -337,7 +337,7 @@ p {
 }
 
 .card {
-    margin: 0 0 5em 3em!important;
+    margin: 0 0 5em 0!important;
     padding: 0!important;
     transition: all .3s ease-in-out;
     width: 100%!important;
@@ -622,6 +622,14 @@ h3 {
 
 #githubLink {
     font-size: 1.5em!important;
+}
+
+
+/* Atributos portfolio */
+
+#portfolioContent {
+    /* Aumenta el tamano de las filas de tarjetas*/
+    max-width: 1200px!important;
 }
 
 
