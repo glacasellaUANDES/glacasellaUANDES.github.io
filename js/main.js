@@ -279,11 +279,11 @@ $(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= (($('.animateNumber').offset().top) - windowHeight) && (controlador === false)) {
         // Seleccionamos el primer primer li
-        $('.n1').animateNumber({ number: 25 }, 1000);
+        $('.n1').animateNumber({ number: 3 }, 1000);
         // Seleccionamos el segundo li
-        $('.n2').animateNumber({ number: 15 }, 1400);
+        $('.n2').animateNumber({ number: 7 }, 1400);
         $('.n3').animateNumber({ number: 3 }, 1800);
-        $('.n4').animateNumber({ number: 9 }, 2100);
+        $('.n4').animateNumber({ number: 2.5 }, 2100);
         controlador = true;
     }
 
@@ -292,11 +292,11 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= (($('.animateNumber').offset().top) - windowHeight) && (controlador === false)) {
             // Seleccionamos el primer primer li
-            $('.n1').animateNumber({ number: 25 }, 1000);
+            $('.n1').animateNumber({ number: 3 }, 1000);
             // Seleccionamos el segundo li
-            $('.n2').animateNumber({ number: 15 }, 1400);
+            $('.n2').animateNumber({ number: 7 }, 1400);
             $('.n3').animateNumber({ number: 3 }, 1800);
-            $('.n4').animateNumber({ number: 9 }, 2100);
+            $('.n4').animateNumber({ number: 2.5 }, 2100);
             controlador = true;
         }
     });
