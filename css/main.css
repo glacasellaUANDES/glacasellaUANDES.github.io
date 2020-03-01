@@ -642,7 +642,7 @@ h3 {
 }
 
 .language_icon {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 
@@ -665,12 +665,20 @@ h3 {
 div.galeria a img {
     margin: .5em!important;
     border: 1px solid rgb(236, 234, 234);
-    border-radius: .5em/.5em;
+    border-radius: .3em/.3em;
     padding: 10px;
 }
 
 div.galeria {
     text-align: center;
+}
+
+div.projectDescription {
+    padding-top: 64px!important;
+}
+
+div.projectPhotoGallery {
+    padding-bottom: 64px!important;
 }
 
 
