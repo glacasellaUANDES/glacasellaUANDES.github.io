@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/lightbox.css">
+    <!--Lightbox-->
     <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../../css/main.css">
 
 
@@ -56,45 +59,14 @@
         <h3 class="w3-center">PHOTO GALLERY</h3>
         <p class="w3-center"><em>Here are some pictures of the work my team and I made.<br> Click on the images to make them bigger</em></p><br>
 
-        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-        <div class="w3-row-padding w3-center">
-            <div class="w3-col m6 s12 l4">
-                <img src="/projects/bb8/img/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Project schematic">
-            </div>
-
-            <div class="w3-col m6 s12 l4">
-                <img src="/projects/bb8/img/2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="BB-8 Prototype">
-            </div>
-
-            <div class="w3-col m6 s12 l4">
-                <img src="/projects/bb8/img/3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Team work and ideas">
-            </div>
-        </div>
-
-        <div class="w3-row-padding w3-center w3-section">
-            <div class="w3-col m6 s12 l4">
-                <img src="/projects/bb8/img/4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Creating the schematic">
-            </div>
-
-            <div class="w3-col m6 s12 l4">
-                <img src="/projects/bb8/img/5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Teammate working on BB-8 case effort ">
-            </div>
-
-            <div class="w3-col m6 s12 l4">
-                <img src="/projects/bb8/img/6.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Comments included in the code about how to drive the robot">
-            </div>
-
+        <div class="galeria">
+            <a href="img/1.jpg" data-lightbox="galeria">
+                <img src="img/thumbs/1.jpg" alt="img">
+            </a>
         </div>
     </div>
 
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent">
-            <img id="img01" class="w3-image">
-            <p id="caption" class="w3-large photogalleryDescription"></p>
-        </div>
-    </div>
+
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-32 w3-opacity w3-hover-opacity-off">
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
@@ -107,6 +79,7 @@
         window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
     </script>
     <script src="../../js/plugins.js"></script>
+    <script src="../../js/lightbox.js"></script>
     <script src="../../js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
