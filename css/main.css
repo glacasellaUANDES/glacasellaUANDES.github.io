@@ -139,7 +139,8 @@ html {
 .bgimg-4,
 .aboutheader,
 .contactheader,
-.portfolioheader {
+.portfolioheader,
+.bb8header {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -650,6 +651,11 @@ h3 {
 #portfolioContent {
     /* Aumenta el tamano de las filas de tarjetas*/
     max-width: 1200px!important;
+}
+
+.bb8header {
+    background-image: url('../projects/bb8/img/3.jpg');
+    min-height: 100%;
 }
 
 
