@@ -338,10 +338,10 @@ p {
 
 .card {
     margin: 0 0 5em 0!important;
-    padding: 0!important;
+    padding: 15px!important;
     transition: all .3s ease-in-out;
     width: 100%!important;
-    border: solid .1px rgb(202, 200, 200);
+    border: solid .1px rgb(236, 234, 234);
 }
 
 .card:hover {
@@ -622,6 +622,26 @@ h3 {
 
 #githubLink {
     font-size: 1.5em!important;
+}
+
+
+/* Portfolio styles*/
+
+.languages_list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.languages_list li {
+    display: inline;
+    text-align: center;
+    vertical-align: top!important;
+    line-height: 1!important;
+    margin-right: 8px;
+}
+
+.language_icon {
+    font-size: 40px;
 }
 
 
