@@ -658,6 +658,10 @@ h3 {
     min-height: 100%;
 }
 
+.photogalleryDescription {
+    font-size: 30px!important;
+}
+
 
 /* ==========================================================================
    Helper classes
