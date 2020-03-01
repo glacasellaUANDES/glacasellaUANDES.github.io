@@ -229,7 +229,7 @@ html {
 }
 
 #swing {
-    font-size: 1.5em;
+    font-size: 1.5em!important;
     color: #F44336;
 }
 
@@ -623,6 +623,12 @@ h3 {
 
 #githubLink {
     font-size: 1.5em!important;
+    text-decoration: underline;
+    transition: all .3s ease-in-out;
+}
+
+#githubLink:hover {
+    transform: scale(1.02);
 }
 
 
