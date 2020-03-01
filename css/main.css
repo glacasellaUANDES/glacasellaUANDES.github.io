@@ -662,6 +662,15 @@ h3 {
     font-size: 1.5em!important;
 }
 
+div.galeria a img {
+    margin: .5em!important;
+    border: 1px solid black;
+}
+
+div.galeria {
+    text-align: center;
+}
+
 
 /* ==========================================================================
    Helper classes
