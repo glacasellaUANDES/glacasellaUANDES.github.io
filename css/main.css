@@ -696,6 +696,10 @@ div.projectPhotoGallery {
     padding-bottom: 64px!important;
 }
 
+div.whatiused ul li {
+    font-size: 1.2em!important;
+}
+
 
 /* ==========================================================================
    Helper classes
