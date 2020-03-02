@@ -140,7 +140,8 @@ html {
 .aboutheader,
 .contactheader,
 .portfolioheader,
-.bb8header {
+.bb8header,
+.calculatorheader {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -659,8 +660,16 @@ h3 {
     max-width: 1200px!important;
 }
 
+
+/* Atributos proyectos */
+
 .bb8header {
     background-image: url('../projects/bb8/img/3.jpg');
+    min-height: 100%;
+}
+
+.calculatorheader {
+    background-image: url('../projects/calculator/img/5.JPG');
     min-height: 100%;
 }
 
