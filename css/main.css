@@ -141,7 +141,8 @@ html {
 .contactheader,
 .portfolioheader,
 .bb8header,
-.calculatorheader {
+.calculatorheader,
+.lumixheader {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -670,6 +671,11 @@ h3 {
 
 .calculatorheader {
     background-image: url('../projects/calculator/img/calculatorheader.png');
+    min-height: 100%;
+}
+
+.lumixheader {
+    background-image: url('../projects/lumix/img/8.JPG');
     min-height: 100%;
 }
 
