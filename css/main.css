@@ -142,7 +142,8 @@ html {
 .portfolioheader,
 .bb8header,
 .calculatorheader,
-.lumixheader {
+.lumixheader,
+.staticsheader {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -676,6 +677,11 @@ h3 {
 
 .lumixheader {
     background-image: url('../projects/lumix/img/8.jpg');
+    min-height: 100%;
+}
+
+.staticsheader {
+    background-image: url('../projects/statics/img/9.JPG');
     min-height: 100%;
 }
 
