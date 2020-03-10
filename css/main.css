@@ -143,7 +143,8 @@ html {
 .bb8header,
 .calculatorheader,
 .lumixheader,
-.staticsheader {
+.staticsheader,
+.mountainheader {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -685,6 +686,11 @@ h3 {
     min-height: 100%;
 }
 
+.mountainheader {
+    background-image: url('../projects/mountainCar/img/4plots.jpg');
+    min-height: 100%;
+}
+
 .photogalleryDescription {
     font-size: 1.5em!important;
 }
@@ -710,6 +716,10 @@ div.projectPhotoGallery {
 
 div.whatiused ul li {
     font-size: 1.2em!important;
+}
+
+.center {
+    align-text: center!important;
 }
 
 
