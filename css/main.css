@@ -750,6 +750,7 @@ div.whatiused ul li {
     left: 0;
     background-color: rgba(0,0,0,0.90); /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden; /* Disable vertical  scroll */
     padding-top: 60px;
     box-shadow: black 10px 50px 90px;
   }
@@ -772,9 +773,17 @@ div.whatiused ul li {
   }
 
   @media screen and (max-height: 900px) {
-    .sidenav a {font-size: 12px;padding: 30px 1px 35px 1px;}
+    .sidenav a {font-size: 12px;padding: 25px 1px 30px 1px;}
     .sidenav {
         height: 48%; /* Full-height: remove this if you want "auto" height */
+        
+      }
+  } 
+
+  @media screen and (max-height: 810px) {
+    .sidenav a {font-size: 11px;padding: 25px 0 30px 0;}
+    .sidenav {
+        height: 45%; /* Full-height: remove this if you want "auto" height */
         
       }
   } 
