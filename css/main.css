@@ -754,12 +754,13 @@ div.whatiused ul li {
     text-decoration: none;
     font-size: 15px;
     color: #818181;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     transform: rotate(-90deg)!important;
     text-transform: uppercase;
     font-family: 'Tomorrow', sans-serif;
     position: relative;
-    top: -4px;
+
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -769,6 +770,10 @@ div.whatiused ul li {
 
   @media screen and (max-height: 900px) {
     .sidenav a {font-size: 12px;padding: 25px 1px 30px 1px;top:-6px;}
+    .sidenav {
+        height: 40%; /* Full-height: remove this if you want "auto" height */
+        
+      }
   } 
 
   @media screen and (max-height: 810px) {

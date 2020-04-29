@@ -324,4 +324,7 @@ $(function() {
             $('#sidebar-contact').addClass('sidenav-selected');
         }
     });
+
+    
 });
+
