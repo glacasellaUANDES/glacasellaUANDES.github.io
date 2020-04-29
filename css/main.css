@@ -234,6 +234,7 @@ html {
 
 #swing {
     font-size: 1.5em!important;
+    margin-top:3em!important;
     color: #F44336;
 }
 
@@ -627,14 +628,26 @@ h3 {
 
 #githubLink {
     font-size: 1.5em!important;
-    text-decoration: underline;
-    transition: all .3s ease-in-out;
+    text-decoration: underline!important;
+    transition: all .3s ease-in-out!important;
+    margin-top:0.5em!important;
 }
 
 #githubLink:hover {
     transform: scale(1.02);
 }
 
+#hackrRankLink{
+    font-size: 1.5em!important;
+    text-decoration: underline!important;
+    transition: all .3s ease-in-out!important;
+    padding-right:2em;
+    margin-top:0.5em!important;
+}
+
+#hackrRankLink:hover {
+    transform: scale(1.02);
+}
 
 /* Portfolio styles*/
 
