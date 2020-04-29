@@ -742,7 +742,7 @@ div.whatiused ul li {
 
  /* The sidebar menu */
  .sidenav {
-    height: 55%; /* Full-height: remove this if you want "auto" height */
+    height: 50%; /* Full-height: remove this if you want "auto" height */
     width: 50px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
@@ -765,6 +765,8 @@ div.whatiused ul li {
     transform: rotate(-90deg)!important;
     text-transform: uppercase;
     font-family: 'Tomorrow', sans-serif;
+    position: relative;
+    top: -4px;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -773,11 +775,7 @@ div.whatiused ul li {
   }
 
   @media screen and (max-height: 900px) {
-    .sidenav a {font-size: 12px;padding: 25px 1px 30px 1px;}
-    .sidenav {
-        height: 48%; /* Full-height: remove this if you want "auto" height */
-        
-      }
+    .sidenav a {font-size: 12px;padding: 25px 1px 30px 1px;top:-6px;}
   } 
 
   @media screen and (max-height: 810px) {
