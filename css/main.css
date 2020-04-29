@@ -238,6 +238,11 @@ html {
     color: #F44336;
 }
 
+#swing2 {
+    font-size: 1.5em!important;
+    color: #F44336;
+}
+
 .hand {
     cursor: pointer;
 }
@@ -309,7 +314,7 @@ div.w3-top a {
 
 span.numero {
     color: #F44336!important;
-    font-size: 6.5em!important;
+    font-size: 8em!important;
 }
 
 .parallax-title {
