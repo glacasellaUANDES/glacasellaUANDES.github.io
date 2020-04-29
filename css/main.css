@@ -529,10 +529,9 @@ button:hover .button-text {
 
 #firma {
     margin-top: 3em;
-    width: 65%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     float: right;
 }
 
@@ -550,12 +549,6 @@ button:hover .button-text {
 
 h3 {
     font-size: 2em!important;
-}
-
-@media only screen and (max-width:769px) {
-    #firma {
-        margin-top: 0;
-    }
 }
 
 
