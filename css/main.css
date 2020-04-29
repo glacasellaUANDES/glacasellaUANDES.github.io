@@ -788,6 +788,22 @@ div.whatiused ul li {
       }
   } 
 
+  @media screen and (max-height: 740px) {
+    .sidenav a {font-size: 10px;padding: 23px 0 28px 0;}
+    .sidenav {
+        height: 45%; /* Full-height: remove this if you want "auto" height */
+        
+      }
+  } 
+
+  @media screen and (max-height: 700px) {
+    .sidenav a {font-size: 9px;padding: 15px 0 25px 0;}
+    .sidenav {
+        height: 45%; /* Full-height: remove this if you want "auto" height */
+        
+      }
+  } 
+
   .sidenav-selected{
       color:white!important;
   }
