@@ -760,7 +760,6 @@ div.whatiused ul li {
     text-transform: uppercase;
     font-family: 'Tomorrow', sans-serif;
     position: relative;
-
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -772,7 +771,6 @@ div.whatiused ul li {
     .sidenav a {font-size: 12px;padding: 25px 1px 30px 1px;top:-6px;}
     .sidenav {
         height: 40%; /* Full-height: remove this if you want "auto" height */
-        
       }
   } 
 
