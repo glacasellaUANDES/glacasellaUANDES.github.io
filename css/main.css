@@ -143,6 +143,7 @@ html {
 .bb8header,
 .calculatorheader,
 .lumixheader,
+.breakoutheader,
 .staticsheader,
 .mountainheader {
     background-attachment: fixed;
@@ -684,6 +685,11 @@ h3 {
 
 .calculatorheader {
     background-image: url('../projects/calculator/img/calculatorheader.png');
+    min-height: 100%;
+}
+
+.breakoutheader {
+    background-image: url('../projects/breakout/img/background.png');
     min-height: 100%;
 }
 
